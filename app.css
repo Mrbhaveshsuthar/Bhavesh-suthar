@@ -1,0 +1,396 @@
+
+body{
+   font-family: roboto, sans-serif;
+
+}
+.imp{
+   color: white; 
+   background-color: #0d3b66;
+   padding: 10px;
+   border-radius: 20px;
+   display: inline;
+}
+body{
+   color: black;
+   background-color: white;
+}
+input + button{
+   margin-bottom: 2px;
+   color: white;
+   background-color: blue;
+   border-radius: 10px;
+   padding: 5px;
+   cursor: pointer;
+}
+input + button:hover{
+   background-color: #2b9348;
+}
+img {
+   width: 300px;
+   height: 400px; 
+   border-radius: 10px;
+}
+nav a{
+   color: black;
+   margin-top: 2px;
+   display: inline;
+}
+ol li{
+   color: DarkRed;
+}
+ul li{
+   color: black;
+}
+section p{
+   color: black;
+}
+span a{
+   color: red;
+}
+.done{
+   color: red;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: italic;
+   font: bold;
+}
+table, td, th {
+            border: 1px solid blue;
+}
+table {
+      border-collapse: collapse;
+      width: 100%;
+}
+td{
+   text-align: center;
+}
+table{
+   color:black;
+}
+em{
+   color: black;
+   font-weight: bolder;
+}
+strong{
+   color: darkblue;
+}
+sup{
+   color: red;
+   font-weight: bolder;
+}
+.click {
+   color: white;
+   background-color: green;
+   width: 8%;
+   padding: 5px 12px;
+   margin: 18px 0;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.click:hover{
+   background-color: #2b9348;
+}
+label{
+   color: black;
+   font: 15px calibri, sans-serif;
+   margin-top: 10px;
+}
+input[type="text"]{
+   font-family: 5px, calibri sans-serif;
+   color: black;
+   width: 12%;
+   padding: 5px;
+   margin: 5px;
+   display: inline;
+   border: 3px solid #ccc;
+   border-radius: 10px
+}
+input[type="password"]{
+   color: black;
+   width: 12%;
+   padding: 5px;
+   margin: 5px;
+   display: inline;
+   border: 3px solid #ccc;
+   border-radius: 10px;
+}
+input[type="number"]{
+   width: 12%;
+   padding: 5px;
+   margin: 5px;
+   display: inline;
+   border: 3px solid #ccc;
+   border-radius: 10px;
+}
+textarea {
+   width: 12%;
+   height: 120px;
+   margin: 5px;
+   padding: 10px 10px;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 5px;
+   background-color: #f8f8f8;
+   font-size: 20px;
+   font-family: 15px calibri, sans-serif;
+   resize: none;
+}
+#First {
+   background-color: #8ecae6;
+   border: thick double darkred;
+   margin-bottom: 1%;  
+   margin-top: 1%;
+   padding: 5px;
+   border-radius: 15px;
+}
+#two {
+   background-color: palegreen;
+   border: thick double darkred;
+   margin-bottom: 1%;  
+   margin-top: 1%;
+   padding: 5px;
+   border-radius: 15px;
+}
+#three {
+   background-color: #0096c7;
+   border: thick double darkred;
+   margin-bottom: 1%;  
+   margin-top: 1%;
+   padding: 5px;
+   border-radius: 15px;
+}
+#fourth {
+   background-color: #48cae4;
+   border: thick double darkred;
+   margin-bottom: 1%;  
+   margin-top: 1%;
+   padding: 5px;
+   border-radius: 15px;
+}
+#dost{
+   background-color: #faa307;
+   border: thick double darkred;
+   margin-bottom: 1%;  
+   margin-top: 1%;
+   padding: 5px;
+   border-radius: 15px;
+}
+#sixth {
+   background-color: #90e0ef;
+   border: thick double darkred;
+   margin-bottom: 1%;  
+   margin-top: 1%;
+   padding: 5px;
+   border-radius: 15px;
+}
+#seven {
+   background-color: #006d77;
+   border: thick double darkred;
+   margin-bottom: 1%;  
+   margin-top: 1%;
+   padding: 5px;
+   border-radius: 15px;
+}
+#eigth {
+   background-color: #0077b6;
+   border: thick double darkred;
+   margin-bottom: 1%;  
+   margin-top: 1%;
+   padding: 5px;
+   border-radius: 15px;
+}
+.artist {
+   color: white;
+   text-align: center;
+   font-size: 25px;
+   background-color: black;
+   border-radius: 20px;
+}
+h1{
+   color: white;
+   text-align: center;
+   text-transform: capitalize;
+   font-size: 25px;
+   background-color: black;
+   border-radius: 20px;
+}
+.flex-container {
+   align-items: right;
+   display: flex;
+   flex-wrap: nowrap;
+   background-color: DodgerBlue;
+   justify-content: left;
+}
+.flex-container div {
+   background-color: #f1f1f1;
+   width: 100px;
+   margin: 10px;
+   text-align: center;
+   line-height: 50px;
+   display: block;
+}
+main {
+   width: 80%;
+   margin: 0 auto;
+   border: 3px solid black;
+   height: 150px;
+   display: flex;
+}
+main .sidebar {
+   background-color:#483D8B;
+   flex: 1;
+}
+main .maincontent {
+   background-color: #00FF7F;
+   flex: 1;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  background-color: #60a9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.panel {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 25px;
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+}
+.pricing-plan {
+  border-bottom: 1px solid #e1f1ff;
+}
+.pricing-plan:last-child {
+  border-bottom: none;
+}
+
+.pricing-img {
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+
+.pricing-header {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.pricing-features {
+  margin: 50px 0 25px;
+  color: #016ff9;
+}
+
+.pricing-features-item {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0;
+  border-top: 1px solid #e1f1ff;
+}
+
+.pricing-features-item:last-child{
+  border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-price {
+  color: #016ff9; 
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.pricing-button {
+  border: 1px solid #9dd1ff;
+  border-radius: 10px;
+  color: #348efe;
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  margin: 25px 0;
+  transition: background-color 200ms ease-in-out;
+}
+
+.pricing-button:hover, .pricing-button:focus {
+  background-color: #e1f1ff;
+}
+
+.pricing-button.is-featured {
+  background-color: #48aaff;
+  color: white;
+}
+
+.pricing-button.is-featured:hover, .pricing-button.is-featured:focus{
+  background-color: #269aff;
+  color: white;
+}
+
+@media (min-width: 900px){
+  .panel {
+    flex-direction: row;
+  }
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    padding: 25px 50px;
+  }
+  .pricing-plan:last-child {
+    border-right: none;
+  }
+} */
